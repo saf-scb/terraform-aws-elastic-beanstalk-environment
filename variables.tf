@@ -3,6 +3,10 @@ variable "namespace" {
   description = "Namespace, which could be your organization name, e.g. 'cp' or 'cloudposse'"
 }
 
+variable "version_label" {
+  default = ""
+}
+
 variable "stage" {
   default = "default"
   description = "Stage, e.g. 'prod', 'staging', 'dev', or 'test'"
